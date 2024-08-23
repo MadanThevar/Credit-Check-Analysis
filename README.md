@@ -55,33 +55,31 @@ This project aims to analyze credit application data to identify key factors inf
 
 ---
 
-### 4. 👨‍👩‍👧‍👦 How does the number of children affect the total household income and what does this imply for credit risk?
+### 4. 👨‍👩‍👧‍👦 How does the average total household income vary between different education levels when excluding those with a secondary or lower education?
 
 **Analysis:**
-- We investigated how the number of children influences household income and its implications for credit risk.
+- Completing an academic degree provides a substantial financial advantage, highlighting the importance of completing higher education to maximize earning potential.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A bar plot showing income variation with the number of children. More children might correlate with increased financial strain and higher credit risk.
+- <img width="267" alt="Screenshot 2024-08-23 at 14 44 05" src="https://github.com/user-attachments/assets/23b10dcd-a5bf-4bed-bd9d-39511fd7ffae">
 
-![Average Income by Number of Children](path_to_your_image_4.png)
 
 ---
 
 ### 5. 🎓💰 What is the relationship between education level and total household income and what does this imply for credit risk?
 
 **Analysis:**
-- The relationship between education and income was explored to assess how education affects financial stability and credit risk.
+- Individuals with an Academic degree earn significantly more on average compared to all other education levels, highlighting the strong positive impact of completing an academic degree on household income. This underscores the value of higher education in boosting earning potential.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A bar plot that clearly shows higher education levels are associated with higher incomes, suggesting lower credit risk.
+- <img width="682" alt="Screenshot 2024-08-23 at 14 47 18" src="https://github.com/user-attachments/assets/75c82b64-6a0c-4a4a-8e8c-491f8421efb9">
 
-![Income by Education Level](path_to_your_image_5.png)
 
 ---
 
