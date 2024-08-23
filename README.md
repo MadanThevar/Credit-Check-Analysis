@@ -113,7 +113,7 @@ This project aims to analyze credit application data to identify key factors inf
 
 ## 🚀 Advanced Analysis
 
-### 🧠 Correlation Analysis and Clustering
+### 🧠 Correlation Analysis
 
 **Objective:**
 - Perform a correlation analysis to understand the relationships between key financial variables and explore clustering to segment applicants based on their financial characteristics.
@@ -122,12 +122,12 @@ This project aims to analyze credit application data to identify key factors inf
 - **R Libraries**: `dplyr` for data manipulation, `corrplot` for correlation heatmaps, `ggplot2` for visualization, `magrittr` for piping operations.
 
 **Analysis:**
-- A correlation heatmap was generated to visualize the relationships between variables such as income, years employed, and family size. K-means clustering was also considered for segmenting applicants into distinct groups.
+- The heatmap shows that the variables examined are largely independent of each other, meaning that within this dataset, years employed, family size, and total household income do not have strong linear relationships. This implies that understanding income, family size, or employment duration likely requires considering additional variables or non-linear models to capture more complex interactions that might exist between them.
 
 **Output:**
-- A correlation heatmap and discussion on potential clustering outcomes.
+-
+<img width="613" alt="Screenshot 2024-08-23 at 15 02 07" src="https://github.com/user-attachments/assets/5f369658-d50c-4832-acae-bfa379712e83">
 
-![Correlation Heatmap](path_to_your_image_8.png)
 
 ---
 
@@ -142,15 +142,60 @@ This project aims to analyze credit application data to identify key factors inf
   - `magrittr` ➡️: For efficient data processing with piping.
 
 ---
+## 📈 Machine Learning Models Tested Using R
+
+In this section, we tested five different machine learning models using R to predict **Total Household Income** based on the features **Years Employed** and **Family Size**. Below are the performance metrics for each model.
+
+### 1. **Linear Regression Model**
+
+- **RMSE**: 98,065.27
+- **R-squared**: 0.0011
+- **MAE**: 71,089.83
+
+### 2. **Decision Tree Model**
+
+- **RMSE**: 98,120.37
+- **R-squared**: NA
+- **MAE**: 71,186.61
+
+### 3. **Random Forest Model**
+
+- **RMSE**: 97,085.86
+- **R-squared**: 0.0235
+- **MAE**: 70,436.61
+
+### 4. **Support Vector Machine (SVM) Model**
+
+- **RMSE**: 100,004.50
+- **R-squared**: 0.0091
+- **MAE**: 68,355.84
+
+### 5. **Gradient Boosting Model (XGBoost)**
+
+- **RMSE**: 96,774.73
+- **R-squared**: 0.0276
+- **MAE**: 70,219.89
+
+### Conclusion
+
+- **Best Performing Model**: The Gradient Boosting Model (XGBoost) had the lowest RMSE and the highest R-squared, making it the best performing model in this analysis.
+- **Overall**: Despite Gradient Boosting performing better, all models showed low R-squared values, suggesting that additional features or further model tuning is needed to improve predictive accuracy.
+
+### 📌 Key Takeaways
+- **Model Performance**: Gradient Boosting (XGBoost) outperformed other models but still had a low R-squared value, indicating that the current predictors (Years Employed and Family Size) are insufficient for accurate income prediction.
+
+- **Feature Importance**: The results suggest that more relevant features, such as marital status, occupation, and loan amounts, need to be incorporated to enhance model accuracy.
+
+- **Complexity and Non-Linearity**: Linear models were less effective, highlighting the need to explore non-linear relationships and more complex algorithms to better capture the underlying data patterns.
+
+- **Data Handling**: The presence of outliers and the potential for overfitting in models like Random Forest suggests a need for improved data preprocessing and model tuning.
 
 ## 🧭 Future Work
 
-- **Predictive Modeling**: Implement models like logistic regression or decision trees to predict credit defaults.
-- **Cluster Analysis**: Utilize K-means clustering for deeper segmentation based on financial characteristics.
-- **Extended Feature Engineering**: Explore additional variables such as marital status and loan amount to enhance the model's predictive power.
+- **Enhance Predictive Modeling**: Focus on optimizing complex models like Gradient Boosting and Random Forest, which showed the best performance. Consider hyperparameter tuning and exploring non-linear relationships to improve accuracy.
 
----
+- **Expand Feature Engineering**: Incorporate additional variables such as marital status, occupation type, and loan amounts to better capture the factors influencing household income.
 
+- **Cluster Analysis**: Utilize K-means clustering to identify distinct financial segments within the data, potentially revealing patterns not captured by regression models.
 
-Thank you for exploring my data portfolio! I hope you find the insights from this Credit Risk Analysis project valuable and insightful. If you have any feedback or suggestions, feel free to reach out!
-
+- **Improve Data Quality**: Address outliers and explore dimensionality reduction techniques to enhance model performance and interpretability.
