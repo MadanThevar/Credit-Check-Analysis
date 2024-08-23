@@ -30,15 +30,14 @@ This project aims to analyze credit application data to identify key factors inf
 ### 2. 👶 What is the distribution of the number of children in the dataset?
 
 **Analysis:**
-- We examined the number of children per applicant to understand family size dynamics, which could influence financial stability.
+- Distribution is that the majority of applicants have either no children or one child, suggesting that smaller family sizes are more common among the applicant pool, which could influence financial responsibilities and credit risk assessments.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A bar plot showing the distribution of children among applicants. Larger families may experience more financial pressure, impacting credit risk.
+- <img width="678" alt="Screenshot 2024-08-23 at 14 32 05" src="https://github.com/user-attachments/assets/51984d7e-0ff5-4716-9379-f176eba736ea">
 
-![Distribution of Number of Children](path_to_your_image_2.png)
 
 ---
 
