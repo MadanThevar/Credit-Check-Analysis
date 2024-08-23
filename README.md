@@ -1,7 +1,7 @@
 # 🎯 Credit Risk Analysis
 
 ## 🗂 Project Overview
-This project aims to analyze credit application data to identify key factors influencing credit risk, leveraging data cleaning, exploratory analysis, and visualization techniques to uncover actionable insights for predicting creditworthiness.
+This project aims to analyze credit application data to identify key factors influencing credit risk using RStudio, leveraging data cleaning, exploratory analysis, and visualization techniques to uncover actionable insights for predicting creditworthiness.
 
 ### 📁 Files in the Repository
 
@@ -86,30 +86,28 @@ This project aims to analyze credit application data to identify key factors inf
 ### 6. 📈 How does the number of years employed relate to total household income and what implications does this have for credit risk?
 
 **Analysis:**
-- We examined the correlation between years of employment and household income to assess employment stability's role in credit risk.
+- The graph shows that while there is a general trend where income tends to slightly increase with more years of employment, this relationship is weak across all education levels. The income disparity between different education levels is more pronounced than the impact of years employed on total household income.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A scatter plot depicting a positive relationship between years employed and income, indicating that longer employment correlates with lower credit risk.
+- <img width="769" alt="Screenshot 2024-08-23 at 14 52 34" src="https://github.com/user-attachments/assets/35fb4c45-7635-4ecb-9566-1508dbfeef15">
 
-![Income by Years Employed](path_to_your_image_6.png)
 
 ---
 
 ### 7. 💸 How does the distribution of total household income vary across different income types and what insights can we draw using density plots?
 
 **Analysis:**
-- We visualized the income distribution across different income types using density plots to identify patterns and outliers.
+- The key insight from the density plot is that the majority of individuals across all income types have lower household incomes, with the highest density of incomes clustered well below $500,000. This indicates that most people in these groups, particularly students and state servants, tend to earn significantly less, with few individuals achieving higher income levels, reflecting overall income disparities within these categories.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A density plot showing varied income distributions across income types, helping to understand which groups might be more prone to credit risk.
+- <img width="769" alt="Screenshot 2024-08-23 at 14 54 55" src="https://github.com/user-attachments/assets/acb661a0-8418-4c58-a578-211e8a6c7241">
 
-![Income Distribution by Income Type](path_to_your_image_7.png)
 
 ---
 
