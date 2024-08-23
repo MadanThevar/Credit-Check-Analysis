@@ -44,15 +44,14 @@ This project aims to analyze credit application data to identify key factors inf
 ### 3. 🏡 What is the average age of applicants based on their housing type?
 
 **Analysis:**
-- By analyzing the average age of applicants across different housing types, we gain insights into age-related financial stability.
+- Younger applicants tend to live with their parents or in rented apartments, while older applicants are more likely to own or live in more stable housing types like municipal or house/apartment settings, which could reflect greater financial stability and lower credit risk.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A bar plot illustrating average age by housing type. Older applicants tend to own homes, which could indicate lower credit risk.
+- <img width="264" alt="Screenshot 2024-08-23 at 14 34 22" src="https://github.com/user-attachments/assets/54350fef-c301-4d1f-9832-6124d0359497">
 
-![Average Age by Housing Type](path_to_your_image_3.png)
 
 ---
 
