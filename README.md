@@ -16,15 +16,14 @@ This project aims to analyze credit application data to identify key factors inf
 ### 1. 🎓 What is the average total household income for each education level?
 
 **Analysis:**
-- We explored how education impacts earning potential, which is a key factor in credit risk assessment.
+- Higher education levels are strongly correlated with significantly higher average household incomes, suggesting that education is a critical factor in financial stability and credit risk assessment.
 
 **Tools Used:**
 - **R Libraries**: `dplyr` for data manipulation, `ggplot2` for visualization.
 
 **Output:**
-- A bar plot shows the average income for different education levels. Higher education often correlates with higher income, indicating potentially lower credit risk.
+- <img width="407" alt="Screenshot 2024-08-23 at 14 28 13" src="https://github.com/user-attachments/assets/5feeec74-f615-4e6d-8e09-26328a53e941">
 
-![Average Income by Education Level](path_to_your_image_1.png)
 
 ---
 
