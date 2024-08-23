@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="" width="715"/>
+  <img src="https://github.com/MadanThevar/Credit-Check-Analysis/blob/main/credit_card_animation.gif?raw=true" width="500"/>
 </div>
 
 
