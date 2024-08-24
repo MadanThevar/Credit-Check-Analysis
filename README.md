@@ -2,7 +2,6 @@
   <img src="https://github.com/MadanThevar/Credit-Check-Analysis/blob/main/credit_card_animation.gif?raw=true" width="500"/>
 </div>
 
-
 <div align="center">
   <h1>  🎯 Credit Risk Analysis </h1>
 </div>
